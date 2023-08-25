@@ -226,7 +226,7 @@ $ ./delete_dnodeint
 **problem**
 
 
-it seems that there is an issue with how you are updating the prev pointers of the nodes when deleting a node from a doubly linked list.
+it seems that there is an issue with updating the prev pointers of the nodes when deleting a node from a doubly linked list.
 
 `(*head)->prev->prev = (*head)->prev;`
 
